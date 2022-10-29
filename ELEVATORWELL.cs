@@ -177,7 +177,7 @@ class Program
         Console.WriteLine("Cantidad de usuarios:    {0}", miElevador.getUsuario());
         Console.WriteLine("Cerrar puertas del elevador:    {0}", miElevador.getCerrar());
         Console.WriteLine("Subir elevador al piso indicado:     {0}", miElevador.getSubir());
-        Console.WriteLine("Ha llegado");
+        Console.WriteLine("Ha llegado a su destino");
         Console.WriteLine("Cantidad de pisos a subir:   {0}", miElevador.getPiso());
 
 
