@@ -77,7 +77,7 @@ class ElevatorWell
     public void setAbrir(bool puertas)
     {
         this.puertas = puertas;
-        Console.WriteLine("Bienvenido a ElevaTorwell");
+        Console.WriteLine("***Bienvenido a ElevaTorwell***\n");
     }
 
     public bool getAbrir()
@@ -146,6 +146,7 @@ class Program
         miElevador.getEncender();
 
         //Abrir puertas del elevador
+        Console.WriteLine("Pongase comodo y elija el piso a donde quiere ir.\n");
         miElevador.setAbrir(true);
         miElevador.getAbrir();
 
@@ -172,13 +173,13 @@ class Program
         //El elevador esta apagado
         miElevador.setApagar(true);
 
-        Console.WriteLine("Abrir puertas:   {0}", miElevador.getAbrir());
-        Console.WriteLine("Encender elevador:   {0}", miElevador.getEncender());
-        Console.WriteLine("Cantidad de usuarios:    {0}", miElevador.getUsuario());
-        Console.WriteLine("Cerrar puertas del elevador:    {0}", miElevador.getCerrar());
-        Console.WriteLine("Subir elevador al piso indicado:     {0}", miElevador.getSubir());
-        Console.WriteLine("Ha llegado a su destino");
-        Console.WriteLine("Cantidad de pisos a subir:   {0}", miElevador.getPiso());
+        Console.WriteLine("Abrir puertas:   {0}\n", miElevador.getAbrir());
+        Console.WriteLine("Encender elevador:   {0}\n", miElevador.getEncender());
+        Console.WriteLine("Cantidad de usuarios:    {0}\n", miElevador.getUsuario());
+        Console.WriteLine("Cerrar puertas del elevador:    {0}\n", miElevador.getCerrar());
+        Console.WriteLine("Subir elevador al piso indicado:     {0}\n", miElevador.getSubir());
+        Console.WriteLine("Ha llegado a su destino\n");
+        Console.WriteLine("Cantidad de pisos a subir:   {0}\n", miElevador.getPiso());
 
 
     }
